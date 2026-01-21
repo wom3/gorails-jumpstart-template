@@ -38,3 +38,12 @@
 !/app/assets/builds/.keep
 
 /node_modules
+# /.yarn
+/install*
+
+# Yarn Plug'n'Play artifacts (we use node_modules)
+/.pnp.*
+
+# Redis local persistence artifacts
+/dump.rdb
+/appendonly.aof
