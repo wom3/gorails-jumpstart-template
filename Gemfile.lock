@@ -273,8 +273,9 @@ GEM
       logger
       rack (>= 2.2.3)
       rack-protection
-    omniauth-facebook (8.0.0)
-      omniauth-oauth2 (~> 1.2)
+    omniauth-facebook (10.0.0)
+      bigdecimal
+      omniauth-oauth2 (>= 1.2, < 3)
     omniauth-github (2.0.1)
       omniauth (~> 2.0)
       omniauth-oauth2 (~> 1.8)
@@ -517,7 +518,7 @@ DEPENDENCIES
   madmin
   name_of_person!
   noticed (~> 2.0)
-  omniauth-facebook (~> 8.0)
+  omniauth-facebook (~> 10.0)
   omniauth-github (~> 2.0)
   omniauth-twitter (~> 1.4)
   pg (~> 1.1)
@@ -636,7 +637,7 @@ CHECKSUMS
   oauth-tty (1.0.6) sha256=9e8bd1861d367cce18318d8f214f2e1a1d7cb3898de0a9ea79162b4fdecb3152
   oauth2 (2.0.18) sha256=bacf11e470dfb963f17348666d0a75c7b29ca65bc48fd47be9057cf91a403287
   omniauth (2.1.4) sha256=42a05b0496f0d22e1dd85d42aaf602f064e36bb47a6826a27ab55e5ba608763c
-  omniauth-facebook (8.0.0) sha256=22814cc048c322244a2aff4897912864536b4422cd6509d476dbb626b22e0efc
+  omniauth-facebook (10.0.0) sha256=dfdc6cbada5387572d554784861546cf6382f9fa16c4731cbe5813e570fcb9e1
   omniauth-github (2.0.1) sha256=8ff8e70ac6d6db9d52485eef52cfa894938c941496e66b52b5e2773ade3ccad4
   omniauth-oauth (1.2.1) sha256=25bf22c90234280fa825200490f03ff1ce7d76f1a4fbd6c882c6c5b169c58da8
   omniauth-oauth2 (1.9.0) sha256=ed15f6d9d20991807ce114cc5b9c1453bce3645b64e51c68c90cff5ff153fee8
