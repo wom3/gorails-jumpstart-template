@@ -65,7 +65,7 @@ group :test do
   gem "selenium-webdriver"
 end
 gem "cssbundling-rails"
-gem "devise", "~> 4.9"
+gem "devise", "~> 5.0"
 gem "friendly_id", "~> 5.4"
 gem "jsbundling-rails"
 gem "madmin"
