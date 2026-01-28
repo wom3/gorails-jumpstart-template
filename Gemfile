@@ -77,7 +77,7 @@ gem "omniauth-twitter", "~> 1.4"
 gem "pretender", "~> 0.3.4"
 gem "pundit", "~> 2.1"
 gem "sidekiq", "~> 7.0"
-gem "connection_pool", "< 3.0"
+gem "connection_pool", "< 4.0"
 gem "sitemap_generator", "~> 6.1"
 gem "whenever", require: false
 gem "responders", github: "heartcombo/responders", branch: "main"
